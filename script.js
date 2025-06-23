@@ -5,3 +5,12 @@ function inserirNome(){
  elemento.textContent = nomeUsuario;
 }
 inserirNome();
+
+//Lista de linguagens escritas:
+const linguagens = ["JavaScript", "Python", "C++"]
+
+//indices:
+
+console.log(linguagens[0]) // “JavaScript”
+console.log(linguagens[1]) // “Python”
+console.log(linguagens[2]) // “C++”
