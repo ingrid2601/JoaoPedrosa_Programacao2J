@@ -5,10 +5,10 @@ function inserirNome(){
  elemento.textContent = nomeUsuario;
 }
 inserirNome();
-let linguagens = ["JavaScript","Python","C"];​
+const linguagens = ["JavaScript","Python","C++"];​
 console.log(linguagens[0]) // “JavaScript”
 console.log(linguagens[1]) // “Python”
-console.log(linguagens[2]) // “C”
+console.log(linguagens[2]) // “C++”
 
 const item = document.querySelector("#lista");
 
@@ -18,7 +18,7 @@ item.textContent = linguagens[1];
 item.textContent = linguagens[2];
 
 
-let aluno1 = {
+const aluno1 = {
   nome: "Gabriel",
   idade: 13,
   anoLetivo: "2ºsérie",
