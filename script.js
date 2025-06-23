@@ -29,3 +29,9 @@ inserirNome();
 //item.textContent = aluno1.nome;
 //item.textContent = aluno1.idade;
 //item.textContent = aluno1.materiasFavoritas[1];
+function mudarCor(){
+  const elemento = document.getElementById("nome-usuário");
+  elemento.style.color = "red";
+ 
+}
+mudarCor();
